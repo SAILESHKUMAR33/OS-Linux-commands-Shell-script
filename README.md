@@ -42,22 +42,17 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-chankul singhvi
-c.k.shukla
-s.n.dasgupta
-sumit chakrobarty
+
 
 
 cat < file2
 ## OUTPUT
-chankul singhvi
-c.k.shukla
-s.n.dasgupta
-sumit chakrobarty
+
 
 # Comparing Files
 cmp file1 file2
-## OUTP
+## OUTPUT
+ 
 comm file1 file2
  ## OUTPUT
 
@@ -88,19 +83,17 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-Hel
-thi
+
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-cut: file22: No such file or directory
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-cut: file22: No such file or directory
+
 
 cat < newfile 
 ```
